@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+nav {
+    background-color: #333; 
+    color: white; 
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+.logo h3 {
+    margin: 0; 
+    font-size: 1.5em; 
+}
+button{
+    background: none;
+    border: none;
+    color: #ccc;
+    margin-left: 25px;
+    font-weight: bold;
+
+}
+.dark img {
+    vertical-align: middle;
+    cursor: pointer; 
+   right: 40px;
+}
+
+.dark img:hover {
+    opacity: 0.8;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+/* ----------------------- */
+section{
+    padding: 65px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.data {
+    line-height: 1.5; 
+}
+
+.data h1 {
+    margin-bottom: 10px;
+}
+
+.data h3, .data p {
+    margin-bottom: 15px; 
+}
+
+.data h1, .data h3, .data p {
+    text-align: start;
+}
+
+.btn button {
+    position: relative;
+    display: inline-flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 1em;
+    color: darkblue;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #555;
+}
+h1 .name {
+    font-weight: bold; 
+    font-size: 50px;
+    animation: colorChange 3s infinite; 
+}
+@keyframes colorChange {
+    0% {
+        color: #0077cc; 
+    }
+    20%{
+        color: green;
+    }
+    50% {
+        color: #ff0000; 
+    }
+    100% {
+        color:#0077cc; 
+    }
+}
+
+
+.educationCard ul {
+    list-style: none; 
+    align-items: center;
+   margin-left: 200px;
+   margin-right: 200px;
+   margin-top: 75px;
+   margin-bottom: 78px;
+}
+.educationCard li {
+    font-weight: bold; 
+    line-height: 4cap;
+    font-size: 25px;
+    text-align: center;
+    color:royalblue
+    
+    
+}
+
+.educationCard p {
+    margin: 0; 
+
+}
+
+.educationCard span {
+    font-weight: bold; 
+}
+
+.skills_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_data > div {
+    flex: 1;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    padding: 22px;
+    text-align: left;
+    margin: 0 5px;
+    font-size: 15px;
+    line-height: 20px;
+    height: 400px;
+    width: 295px;
+   
+}
+
+
+.skills_data h3 {
+    margin-bottom: 10px;
+}
+
+.skills_data li {
+    padding-top: 5px;
+    padding-right: 15px;
+    list-style: none;
+    margin-bottom: 5px;
+    list-style-type: disc;
+    transform: translateX(20px);
+}
+
+
+    #contactCard {
+        display: none;
+        position: fixed;
+        top: 50px;
+        right: 10px;
+        background: linear-gradient(to right, #007BFF, #00BFFF); 
+        color: #fff; 
+        border: 1px solid #ccc;
+        padding: 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        z-index: 999;
+        text-align: left;
+        width: 450px;
+    }
+    
+    #contactCard img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    #contactCard a {
+        text-decoration: none;
+        color: #fff; 
+    }
+    .professional {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .professional > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+        padding: 22px;
+        text-align: left;
+        margin: 10px 5px;
+        font-size: 15px;
+        line-height: 20px;
+        height: 110px;
+        width: 1200px;
+    }
+    .professional .project{
+        height: 115px;
+    }
+    
